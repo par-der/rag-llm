@@ -8,7 +8,7 @@ from langchain_text_splitters import CharacterTextSplitter
 from sentence_transformers import SentenceTransformer
 from config import OPENAI_API_KEY
 
-
+# подключить logger
 class RAGSystem:
     def __init__(self):
         openai.api_key = OPENAI_API_KEY
